@@ -1,16 +1,27 @@
-# pr3
+# Практическая работа №3 по Программированию корпоративных систем
 
-A new Flutter project.
+## Мрясова Анастасия Александровна ЭФБО-01-22
 
-## Getting Started
+### Простое приложение с навигацией
 
-This project is a starting point for a Flutter application.
+В этой практической работе подразумевалось создать простое мобильное приложение-каталог товаров, при нажатии на карточки которых будет осуществляться переход на другую страницу с описанием товара.
+Я выбрала тему "Напитки". На первом экране список всех напитков, выполненный с помощьдю GridView, при нажатии на напиток происходит переход на страницу с информацией об этом напитке - описание, цены, состав и подача. 
 
-A few resources to get you started if this is your first Flutter project:
+Для создания дизайна приложения был использован инструмент Figma. Прототип:
+![image](https://github.com/user-attachments/assets/7d09075f-3585-4944-be0e-5de6641f2cee)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Использования картинок осуществлено с помощью указания пути к ним (assets/images) в файле pubsec.yaml, в верстке - Image.asset. Использование шрифта от Google Fonts осуществлено с помощью подключения библиотеки google_fonts.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Структура напитка описана в файле models/drink.dart, в файле data.dart приведены данные о напитках, которые используются в приложении.
+
+### Результат.
+Главная страница:
+![image](https://github.com/user-attachments/assets/f152a5c5-d6ab-4451-b86e-b9d77fa04259)
+
+Страница с информацией о напитке:
+![image](https://github.com/user-attachments/assets/cdfaae16-85bc-4e16-b25e-a0a3d011a2b2)
+
+В случае, если напиток можно подать как холодным, так и горячим, отображаются соответствующие иконки
+![image](https://github.com/user-attachments/assets/6b09e441-c38a-4365-9462-5dbb41a14a7e)
+
+
