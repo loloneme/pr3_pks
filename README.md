@@ -16,9 +16,11 @@
 
 ### Результат.
 Главная страница:
+
 ![image](https://github.com/user-attachments/assets/f152a5c5-d6ab-4451-b86e-b9d77fa04259)
 
 Страница с информацией о напитке:
+
 ![image](https://github.com/user-attachments/assets/cdfaae16-85bc-4e16-b25e-a0a3d011a2b2)
 
 В случае, если напиток можно подать как холодным, так и горячим, отображаются соответствующие иконки
